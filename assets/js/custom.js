@@ -70,26 +70,11 @@
 		 * Quote Rotator
 		/* ---------------------------------------------- */
        
-			$( function() {
-				/*
-				- how to call the plugin:
-				$( selector ).cbpQTRotator( [options] );
-				- options:
-				{
-					// default transition speed (ms)
-					speed : 700,
-					// default transition easing
-					easing : 'ease',
-					// rotator interval (ms)
-					interval : 8000
-				}
-				- destroy:
-				$( selector ).cbpQTRotator( 'destroy' );
-				*/
-
-				$('#cbp-qtrotator').cbpQTRotator({
-    speed: 1000,     // 1 segundo para trocar (transição suave)
-    interval: 12000  // 12 segundos de exibição antes de mudar
+			$(function () {
+	$('#cbp-qtrotator').cbpQTRotator({
+		speed: 1000,     // tempo da transição
+		interval: 12000  // tempo de leitura (12s)
+	});
 });
 
 		

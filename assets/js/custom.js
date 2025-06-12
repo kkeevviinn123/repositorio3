@@ -87,9 +87,9 @@
 				$( selector ).cbpQTRotator( 'destroy' );
 				*/
 
-				$( '#cbp-qtrotator' ).cbpQTRotator();
-
-			} );
+				$('#cbp-qtrotator').cbpQTRotator({
+    interval: 20000 // 12 segundos entre cada depoimento
+});
 		
         
 		/* ---------------------------------------------- /*

@@ -88,8 +88,10 @@
 				*/
 
 				$('#cbp-qtrotator').cbpQTRotator({
-    interval: 20000 // 12 segundos entre cada depoimento
+    speed: 1000,     // 1 segundo para trocar (transição suave)
+    interval: 12000  // 12 segundos de exibição antes de mudar
 });
+
 		
         
 		/* ---------------------------------------------- /*
